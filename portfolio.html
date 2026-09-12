@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio — [Your Name]</title>
-<meta name="description" content="Case studies launching soon. Real digital marketing projects across AI content, automation, SEO, and performance marketing.">
+<title>Portfolio — Elif Akbaş</title>
+<meta name="description" content="Real AI engineering and digital marketing projects — source code, live demos, and case studies.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo">&lt;<span class="tag">YourName</span> /&gt;</a>
+    <a href="index.html" class="logo">&lt;<span class="tag">Elif</span> /&gt;</a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
@@ -36,55 +36,177 @@
 <header class="hero" style="padding-bottom:40px;">
   <div class="container">
     <span class="eyebrow">Portfolio</span>
-    <h1 style="font-size:clamp(2rem,4.5vw,3rem);">Case studies, under construction.</h1>
+    <h1 style="font-size:clamp(2rem,4.5vw,3rem);">Real projects, real code.</h1>
+    <p class="lead" style="margin-bottom:0;">Every project below is built end-to-end by me — source available on GitHub. New ones are added regularly.</p>
   </div>
 </header>
 
 <section class="block" style="border-bottom:none;">
   <div class="container">
-    <div class="empty-state">
-      <span class="eyebrow">// Status: building</span>
-      <h3 style="margin-bottom:10px;">Case studies launching soon</h3>
-      <p style="font-size:0.95rem;">
-        I'm currently building out real projects across all five service areas. This page will update
-        regularly as work is completed — check back, or get in touch to be one of the first case studies.
-      </p>
+    <div class="project-grid">
+
+      <!-- AI Content Production -->
+      <div class="project-card">
+        <span class="cat-tag">AI Content Production</span>
+        <h4>AURA SKIN — AI Marketing Campaign</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>A fictional luxury skincare brand needed a full launch campaign — photography, video, and copy — without a real product shoot.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Generated product photography with Leonardo.ai, produced a 15-second reel with Kling AI edited in CapCut, and wrote full campaign copy (Instagram, Meta ad, launch email) with Claude AI.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>A complete, publish-ready campaign — visuals, video, copy, and a 2-week content calendar — documented as a public case study.</p>
+        </div>
+        <div class="project-tools"><span>Leonardo.ai</span><span>Kling AI</span><span>CapCut</span><span>Claude AI</span></div>
+        <div class="project-links">
+          <a href="https://github.com/elfakbdm/aura-skin-campaign" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <!-- Marketing Automation -->
+      <div class="project-card">
+        <span class="cat-tag">Marketing Automation & Agentic AI</span>
+        <h4>AI Marketing Analytics Assistant</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>Weekly campaign reporting (CTR, CPC, CPA, ROAS) was manual, repetitive, and gave no clear next action.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Built a Python pipeline that ingests CSV campaign data, calculates key metrics automatically, and calls the OpenAI API to generate specific budget-allocation recommendations — then renders everything into a shareable PDF via ReportLab.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>Turned a manual weekly task into a one-command report, with AI-written, data-backed optimization suggestions attached.</p>
+        </div>
+        <div class="project-tools"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>OpenAI API</span><span>ReportLab</span></div>
+        <div class="project-links">
+          <a href="https://github.com/elfakb/ai-marketing-analytics-asistant" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <!-- Technical SEO -->
+      <div class="project-card">
+        <span class="cat-tag">Technical SEO</span>
+        <h4>AI-Powered SEO Audit Tool</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>Manual technical SEO audits are slow and inconsistent across sites — title tags, canonical tags, robots.txt, sitemaps, and more each need separate checks.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Built a scoring engine in Python that automatically evaluates 10+ SEO criteria, wrapped in an interactive Streamlit interface plus a FastAPI endpoint for programmatic use.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>Any site can be scanned and scored across On-Page SEO, Technical SEO, and Accessibility in seconds — live and testable.</p>
+        </div>
+        <div class="project-tools"><span>Python</span><span>Streamlit</span><span>FastAPI</span><span>BeautifulSoup</span></div>
+        <div class="project-links">
+          <a href="https://github.com/elfakb/seo-auditor" target="_blank" rel="noopener">GitHub →</a>
+          <a href="https://seo-auditor-5z5meyp2p7hcij9vaxcyaa.streamlit.app" target="_blank" rel="noopener">Live Demo →</a>
+        </div>
+      </div>
+
+      <!-- Performance Marketing -->
+      <div class="project-card">
+        <span class="cat-tag">Performance Marketing</span>
+        <h4>Google Ads Campaign — Case Study</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>A lead-gen client wanted a 3,000 TL/month Search campaign built around an unrealistic 150 TL target CPA.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Ran keyword, CPC, and search-volume research with Ubersuggest and Google Trends, then built full campaign structure, ad copy, and performance projections around three angles: Trust, Speed, and Value.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>Identified the 150 TL CPA target as unrealistic against real market CPCs and revised it to a data-backed 2,500–2,800 TL range before any budget was spent.</p>
+        </div>
+        <div class="project-tools"><span>Google Ads</span><span>Ubersuggest</span><span>Google Trends</span></div>
+      </div>
+
+      <!-- Performance / Analytics -->
+      <div class="project-card">
+        <span class="cat-tag">Performance Marketing</span>
+        <h4>GA4 + Looker Studio — Funnel Analysis</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>Needed a clear view of where users were dropping off in the purchase funnel of an e-commerce store.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Analyzed 28 days of GA4 demo data (Google Merchandise Store) and built a single-page Looker Studio dashboard combining traffic sources, page performance, and funnel stages.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>Identified a 74.9% user drop-off at checkout and delivered three specific, test-ready optimization recommendations.</p>
+        </div>
+        <div class="project-tools"><span>GA4</span><span>Looker Studio</span></div>
+        <div class="project-links">
+          <a href="https://datastudio.google.com/u/0/reporting/c4e4b023-957f-4099-a2ea-79b70f988368" target="_blank" rel="noopener">View Dashboard →</a>
+        </div>
+      </div>
+
+      <!-- AI Content Specialist -->
+      <div class="project-card">
+        <span class="cat-tag">AI Content Specialist</span>
+        <h4>AI Marketing Content Generator</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>Producing consistent, on-brand content for LinkedIn, Instagram, Blog, and Email separately is slow and easy to make inconsistent.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Built platform-specific prompt templates (character limits, CTA structures, hashtag strategy, SEO formatting) inside a Streamlit app powered by the OpenAI API, then tested it across finance, e-commerce, and healthcare use cases.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>Cut content creation time by approximately 90% while keeping brand voice consistent across every format tested.</p>
+        </div>
+        <div class="project-tools"><span>Python</span><span>Streamlit</span><span>OpenAI API</span></div>
+        <div class="project-links">
+          <a href="https://github.com/elfakb/ai-marketing-generator" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <!-- Data / Automation -->
+      <div class="project-card">
+        <span class="cat-tag">Marketing Automation & Agentic AI</span>
+        <h4>E-Commerce Funnel Analysis & A/B Test Design</h4>
+        <div class="pcr-row">
+          <span class="pcr-label">Problem</span>
+          <p>Needed to find and quantify the biggest conversion bottleneck across 99K+ real e-commerce orders (Olist dataset).</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Approach</span>
+          <p>Reconstructed the full purchase funnel with SQL, traced the largest drop-off (Order Approved → Delivered, 1,724 orders lost) to stock and fulfillment issues, then designed a statistically rigorous A/B test (α = 0.05, 80% power) to validate a fix.</p>
+        </div>
+        <div class="pcr-row">
+          <span class="pcr-label">Result</span>
+          <p>Calculated a required sample size of 8,842 orders to detect a 1-point improvement in delivery rate — turning an analysis into a testable business hypothesis.</p>
+        </div>
+        <div class="project-tools"><span>SQL</span><span>Python</span><span>Pandas</span><span>Statistical Analysis</span></div>
+        <div class="project-links">
+          <a href="https://github.com/elfakb/E-Commerce-Funnel-Analysis-A-B-Test-Design" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
     </div>
 
-    <div class="section-head">
-      <span class="eyebrow">Format</span>
-      <h2>How every case study will be structured</h2>
-      <p>The template below shows the structure that's ready to go the moment the first project is complete.</p>
-    </div>
-
-    <div class="template-grid">
-      <div class="template-card">
-        <span class="step">Problem</span>
-        <div class="placeholder-line"></div>
-        <div class="placeholder-line"></div>
-        <div class="placeholder-line short"></div>
-      </div>
-      <div class="template-card">
-        <span class="step">Approach</span>
-        <div class="placeholder-line"></div>
-        <div class="placeholder-line"></div>
-        <div class="placeholder-line short"></div>
-      </div>
-      <div class="template-card">
-        <span class="step">Result</span>
-        <div class="placeholder-line"></div>
-        <div class="placeholder-line"></div>
-        <div class="placeholder-line short"></div>
-        <span style="font-family:var(--mono);font-size:0.75rem;color:var(--ink-faint);display:block;margin-top:10px;">[ metrics go here ]</span>
-      </div>
-    </div>
+    <p class="portfolio-cta-note">More projects are added regularly — see the full list on <a href="https://github.com/elfakb" target="_blank" rel="noopener">GitHub</a>.</p>
   </div>
 </section>
 
 <section class="cta-band">
   <div class="container">
-    <h2>Want to be featured here first?</h2>
-    <p>Early clients get closer collaboration and, often, better pricing.</p>
+    <h2>Want to work together?</h2>
+    <p>Tell me what you're trying to solve.</p>
     <div class="btn-row" style="justify-content:center;">
       <a href="contact.html" class="btn btn-primary">Reach out</a>
     </div>
@@ -93,7 +215,7 @@
 
 <footer>
   <div class="container" style="display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;">
-    <span class="foot-mono">© 2026 [Your Name]. Built with intent.</span>
+    <span class="foot-mono">© 2026 Elif Akbaş. Built with intent.</span>
     <div class="foot-links">
       <a href="contact.html">Contact</a>
       <a href="about.html">About</a>
